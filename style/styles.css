@@ -14,6 +14,10 @@ hr{
     margin: 2rem 0rem;
 }
 
+.normal-h2{
+    font-weight: lighter;
+}
+
 .container{
     padding: 0rem 1rem;
 }
@@ -44,11 +48,17 @@ hr{
 /* lists */
 .list-non-bullet{
     list-style: none;
+    margin-bottom: 2rem;
 }
 
 .list-item-inline{
     display: inline;
     padding: 0rem 0.5rem;
+}
+
+.off-white-div{
+    padding: 1rem 1rem;
+    background-color: var(--off-white);
 }
 
 /* navigation bar*/
@@ -113,6 +123,7 @@ hr{
 
 /* footers/ */
 .footer{
+    margin-top: 5rem;
     background-color: var(--primary-color);
     padding: 0.5rem 1rem;
     text-align: center;
@@ -129,6 +140,10 @@ hr{
     font-size: x-large;
 }
 
+.fixed-footer{
+    margin-top: 4rem;
+    padding: 0.5rem 0rem;
+}
 /* remove chrome internal style(user agent stylesheet) */
 /* to center items */
 .footer ul{
