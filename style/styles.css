@@ -57,8 +57,10 @@ hr{
 }
 
 .off-white-div{
-    padding: 1rem 1rem;
     background-color: var(--off-white);
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+    margin-top: 2rem;
 }
 
 /* navigation bar*/
@@ -92,7 +94,7 @@ hr{
 }
 
 .hero .hero-img{
-    max-width: 450px;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
